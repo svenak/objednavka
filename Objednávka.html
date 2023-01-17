@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title></title>
+  </head>
+  <body>
+  Vaše objednávka
+ <form action="objednavka.php" method="GET">
+  <table border="5">
+    <tr>
+        <td>Jméno:</td>
+        <td><input type="text" name="jmeno" /><br /></td>
+    </tr>
+    <tr>
+        <td>Příjmení:</td>
+        <td><input type="text" name="prijmeni" /><br /></td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td><input type="text" name="email" /><br /></td>
+    </tr>
+    <tr>
+        <td>Telefon(+420):</td>
+        <td><input type="text" name="telefon" /><br /></td>
+    </tr>
+    <tr>
+        <td>Ulice:</td>
+        <td><input type="text" name="ulice" /><br /></td>
+    </tr>
+    <tr>
+        <td>Město:</td>
+        <td><input type="text" name="mesto" /><br /></td>
+    </tr>
+    <tr>
+        <td>PSČ:</td>
+        <td><input type="text" name="psc" /><br /></td>
+    </tr>
+    <tr>
+        <td>Doprava</td>
+        <td>
+   <input type="radio" id="ppl" name="doprava" value="ppl">
+  <label for="ppl">PPL(95kč)</label>
+  <br>
+  <input type="radio" id="ppl" name="doprava" value="geis">
+  <label for="geis">GEIS(98kč)</label><br>
+  <input type="radio" id="ppl" name="doprava" value="posta">
+  <label for="posta">česká pošta(40kč)</label><br>
+  <input type="radio" id="ppl" name="doprava" value="zasilkovna">
+  <label for="zasilkovna">Zasilkovna(30kč)</label>
+  <?php
+
+  ?>
+        
+      
+    </tr>
+     <tr>
+        <td>Platba</td>
+        <td>
+         <input type="radio" id="ppl" name="platba" value="karta">
+  <label for="karta">Online platba kartou(zdarma)</label>
+  <br>
+  <input type="radio" id="ppl" name="platba" value="banka">
+  <label for="banka">Bankovní převod(zdarma)</label><br>
+  <input type="radio" id="ppl" name="platba" value="dobirka">
+  <label for="dobirka">Dobírka(40kč)</label><br>
+  <input type="radio" id="ppl" name="platba" value="kartad">
+  <label for="kartad">Zasilkovna(hotově nebo kartou)(30kč)</label>
+       
+    </tr>
+    <tr>
+    
+        <td><input type="submit"></td>
+        <td align="left">Děkuji  za váš čas <br /></td>
+        </form>
+    </tr>
+
+                        
+    
+</table>
+</body>
+</html>
